@@ -1,0 +1,138 @@
+/* Definició de variables CSS per a colors i estils */
+:root {
+    --bg-color: #222;
+    --text-color: #eee;
+    --accent-color: #feda6a;
+    --accent-hover: #ffc107;
+    --container-bg: #333;
+    --dead-bg: #700;
+    --grid-bg: #444;
+    /* He eliminat les variables d'event-log i death-log si vols que no tinguin un fons destacat */
+    --box-shadow-large: 0 4px 10px rgba(0, 0, 0, 0.5);
+    --box-shadow-small: 0 2px 4px rgba(0, 0, 0, 0.5);
+    --border-radius: 5px;
+    --transition-speed: 0.3s;
+  }
+  
+  /* Estils globals */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  /* Encabezat */
+  header {
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    color: var(--accent-color);
+    margin: 20px 0 10px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Contenidor principal */
+  .container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: var(--container-bg);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow-large);
+  }
+  
+  /* Seccions de la pàgina */
+  .input-section,
+  .simulation-section,
+  .status-section,
+  .log-section {
+    margin-bottom: 20px;
+  }
+  
+  /* Labels i inputs */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  select {
+    padding: 8px;
+    border: none;
+    border-radius: var(--border-radius);
+    margin-bottom: 10px;
+  }
+  
+  /* Botons */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color var(--transition-speed) ease;
+  }
+  
+  button:hover {
+    background-color: var(--accent-hover);
+  }
+  
+  /* Graella per als inputs i estat dels tributs */
+  .tribute-grid,
+  .tribute-status,
+  .death-log {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Estils per a cada tribut i entrada de mort */
+  .tribute,
+  .death-entry {
+    background: var(--grid-bg);
+    color: var(--text-color);
+    padding: 10px;
+    text-align: center;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow-small);
+  }
+  
+  /* Estil específic per als tributs morts */
+  .tribute.dead {
+    background: var(--dead-bg);
+  }
+  
+  /* Registre d'esdeveniments */
+  /* S'ha eliminat el fons negre i la box-shadow per evitar la "barra" negra */
+  .event-log {
+    margin-top: 20px;
+    padding: 10px;
+    background: transparent;
+    border-radius: var(--border-radius);
+  }
+  
+  /* Death log (si s'usa) */
+  .death-log {
+    background: transparent;
+  }
+  
+  /* Peu de pàgina */
+  footer {
+    padding: 20px;
+    background: var(--container-bg);
+    color: var(--text-color);
+    text-align: center;
+    margin-top: 20px;
+  }
+  

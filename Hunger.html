@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador dels Jocs de la Fam</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Simulador dels Jocs de la Fam</h1>
+  </header>
+
+  <main class="container">
+    <!-- Secció de configuració de participants -->
+    <section class="input-section">
+      <h2>Configura els Participants</h2>
+      <label for="numTributos">Nombre de participants:</label>
+      <select id="numTributos" onchange="generateInputs()">
+        <option value="12">12</option>
+        <option value="24">24</option>
+      </select>
+      <div id="tributeInputs" class="tribute-grid"></div>
+      <button type="button" onclick="initializeTributes()">Carregar participants</button>
+    </section>
+
+    <!-- Secció de simulació -->
+    <section class="simulation-section">
+      <button type="button" onclick="startRound()" id="startButton" disabled>Comença la ronda</button>
+      <button type="button" onclick="nextRound()" id="nextButton" style="display:none;">Següent Ronda</button>
+    </section>
+
+    <!-- Secció de l'estat dels tributs -->
+    <section class="status-section">
+      <h2>Estat dels Tributs</h2>
+      <div id="tributeStatus" class="tribute-status"></div>
+    </section>
+
+    <!-- Secció del registre d'esdeveniments -->
+    <section class="log-section">
+      <h3>Registre d'Esdeveniments</h3>
+      <div id="eventLog" class="event-log"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Simulador dels Jocs de la Fam</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

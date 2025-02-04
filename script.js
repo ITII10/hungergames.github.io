@@ -19,7 +19,7 @@
         "{A} descobreix un riu però gairebé s'ofega intentant pescar.",
         "{A} obre una peixeteria, peixos roger.",
         "{A} opina que la peixeteria local té molts bons peixos.",
-        "{A} decideix invertir el temps productivament i es casca una palla."
+        "{A} decideix invertir el temps productivament i es casa amb un arbre."
       ],
       mortals: [
         "{A} és assassinat per {B}, que ni tan sols s’immuta.",

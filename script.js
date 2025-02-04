@@ -18,22 +18,25 @@
         "{A} troba una arma però no sap com utilitzar-la.",
         "{A} descobreix un riu però gairebé s'ofega intentant pescar.",
         "{A} obre una peixeteria, peixos roger.",
-        "{A} opina que la peixeteria local té molts bons peixos."
+        "{A} opina que la peixeteria local té molts bons peixos.",
+        "{A} decideix invertir el temps productivament i es casca una palla."
       ],
       mortals: [
         "{A} és assassinat per {B}, que ni tan sols s’immuta.",
         "{A} es baralla amb {B}, però perd i ara descansa eternament.",
         "{A} intenta treure una trampa... i acaba caient-hi de cap.",
         "{A} es menja unes baies… eren verinoses. Adéu!",
-        "{A} es atava brutalment per unes avispes modificades genèticament.",
+        "{A} es ataca brutalment per unes avispes modificades genèticament.",
         "{A} traiciona a {B} però acaben tirant-lo per un penya-segat.",
         "{A} és atacat per un grup de llops i no ho explica.",
         "{A} cau d'un penya-segat mentre buscava refugi.",
-        "{A} va a robar al campament de {B} que acaba devorant-lo.",
+        "{A} va a robar al campament de {B} que acaba devorant-l@.",
         "{B} llença un dard amb verí al cul de {A} que agonitza fins la mort.",
         "{A} anava caminant tranquil·lament quan es troba una motxilla d'on surt {B} amb una escopeta.",
         "{A} i {B} anaven caminant agafats de la mà quan a {A} li dona un atac al cor.",
-        "{B} llepa a {A} fins la mort."
+        "{B} llepa a {A} fins la mort.",
+        "{B} obliga a {A} a escoltar la música de Taylor Swift fins a morir.",
+        "{B} deixa caure (accidentalment) 5 litres de benzina sobre {A} i es crema. "
       ],
       beneficiosos: [
         "{A} roba menjar a {B}, però li deixa una nota de disculpa.",

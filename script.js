@@ -26,7 +26,7 @@
         "{A} es baralla amb {B}, però perd i ara descansa eternament.",
         "{A} intenta treure una trampa... i acaba caient-hi de cap.",
         "{A} es menja unes baies… eren verinoses. Adéu!",
-        "{A} es ataca brutalment per unes avispes modificades genèticament.",
+        "{A} es atacaT brutalment per unes avispes modificades genèticament.",
         "{A} traiciona a {B} però acaben tirant-lo per un penya-segat.",
         "{A} és atacat per un grup de llops i no ho explica.",
         "{A} cau d'un penya-segat mentre buscava refugi.",
